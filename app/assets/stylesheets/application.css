@@ -52,7 +52,32 @@
   color:#fff ;
 }
 
-.index {
+.index, .show, .edit {
+  width: 80%;
+  margin: 20px auto;
+  padding:20px;
+  border:double 5px #333;
+}
+
+.index_heading, .show_heading, .edit_heading {
   font-family: 'Oswald', sans-serif;
-  padding:50;
+}
+
+.index_errors, .edit_errors {
+  border:dashed 2px #333;
+  padding-left: 20px;
+  color: red;
+}
+
+.index_submit {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.show > p {
+  margin: 5px 0;
+}
+
+table th, td{
+  padding:5px;
 }
